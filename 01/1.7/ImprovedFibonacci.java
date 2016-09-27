@@ -1,5 +1,5 @@
 public class ImprovedFibonacci {
-    static final int MAX = 9;
+    private static final int MAX = 9;
 
     public static void main(String[] args) {
         int lo = 1;
