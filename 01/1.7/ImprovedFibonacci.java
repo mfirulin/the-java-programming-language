@@ -11,7 +11,7 @@ public class ImprovedFibonacci {
             if(hi % 2 == 0)
                 mark = " *";
             else
-            mark = "";
+                mark = "";
 
             System.out.println(i + ": " + hi + mark);
             hi += lo;
