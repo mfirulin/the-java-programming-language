@@ -26,7 +26,8 @@ public class MyUtilities {
             throw new BadDataSetException(file, e);
         } finally {
             try {
-                if (in != null) in.close();
+                if (in != null) 
+                    in.close();
             } catch (IOException e) {
                 ; // No action
             }
