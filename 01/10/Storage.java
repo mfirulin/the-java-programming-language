@@ -1,4 +1,4 @@
-class Storage {
-    long a;
-    boolean even;
+public class Storage {
+    public long a;
+    public boolean even;
 }
