@@ -1,6 +1,6 @@
-class Fibonacci {
-    static final int MAX = 50;
-    static final String head = "fibonacci\n---------"; 
+public class Fibonacci {
+    private static final int MAX = 50;
+    private static final String head = "fibonacci\n---------"; 
 
     public static void main(String[] args) {
         long lo = 1;
