@@ -1,8 +1,8 @@
 public class Vehicle {
-    private double speed;
-    private short course;
-    private String owner;
-    private long number;
+    public double speed;
+    public short course;
+    public String owner;
+    public long number;
     
     public static long nextFreeNumber;
 }
