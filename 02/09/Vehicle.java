@@ -10,7 +10,6 @@ public class Vehicle {
         number = nextFreeNumber++;
     }
 
-
     Vehicle(String o) {
         this();
         owner = o;
@@ -21,7 +20,7 @@ public class Vehicle {
     }
 
     public static void main(String[] args) {
-        Vehicle bmv = new Vehicle("Михаил Фирулин");
+        Vehicle bmv = new Vehicle("Mikhail");
         Vehicle lada = new Vehicle();
 
         System.out.println("Vehicle: number " + bmv.number + 
