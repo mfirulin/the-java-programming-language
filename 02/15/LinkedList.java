@@ -11,7 +11,7 @@ public class LinkedList {
     }
 
     public String toString() {
- 		return getClass() + "[object=" + obj + "]";
+ 	    return getClass() + "[object=" + obj + "]";
     }
 
     public int getNumberOfElements() {
