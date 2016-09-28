@@ -87,7 +87,7 @@ public class Vehicle {
     public static void main(String[] args) {
         Vehicle bmv = new Vehicle("Mikhail");
         bmv.turn((short)57);
-		System.out.println(bmv);
+        System.out.println(bmv);
         bmv.turn(TURN_LEFT);           
         System.out.println(bmv);
     }
