@@ -46,7 +46,7 @@ public class Vehicle
         return number;
     }
 
-  	public void changeSpeed(double s) {
+    public void changeSpeed(double s) {
         speed += s;
     }
     
