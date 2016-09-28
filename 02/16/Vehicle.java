@@ -19,21 +19,6 @@ public class Vehicle {
         this.owner = owner;
     }
 
-    public void stop() {
-        speed = 0;
-    }
-
-    public void turn(short course) {
-        this.course += course;
-    }
-    
-    public void turn(int direction) {
-        if(direction == TURN_LEFT)
-            course -= 90;
-        else if (direction == TURN_RIGHT)
-            course += 90;
-    }
-
     // Get, Set
     public double getSpeed() {
         return speed;
@@ -63,6 +48,25 @@ public class Vehicle {
         return number;
     }
 
+    public void changeSpeed(double s) {
+        speed += s;
+    }
+
+    public void stop() {
+        speed = 0;
+    }
+
+    public void turn(short course) {
+        this.course += course;
+    }
+    
+    public void turn(int direction) {
+        if(direction == TURN_LEFT)
+            course -= 90;
+        else if (direction == TURN_RIGHT)
+            course += 90;
+    }
+	
     public String toString() {
         return getClass() + "[number=" + number + 
             ",owner=" + owner +
