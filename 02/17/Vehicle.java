@@ -68,7 +68,7 @@ public class Vehicle {
             ",owner=" + owner +
             ",speed=" + speed + 
             ",course=" + course +
-			"]";
+            "]";
     }
     
     // Static methods
