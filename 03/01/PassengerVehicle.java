@@ -24,11 +24,8 @@ public class PassengerVehicle extends Vehicle {
     }
 
     public String toString() {
-        return getClass() + "[number=" + number + 
-            ",owner=" + owner +
-            ",speed=" + speed + 
-            ",course=" + course +
-            ",number of places " + numOfPlaces +
+        return super.toString() + "[" +
+            "number of places " + numOfPlaces +
             ",number of free places " + numOfFreePlaces +
             "]";
     }
