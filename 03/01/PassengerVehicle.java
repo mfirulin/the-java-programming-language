@@ -23,7 +23,6 @@ public class PassengerVehicle extends Vehicle {
         numOfFreePlaces = numOfPlaces = n;
     }
 
-
     public String toString() {
         return getClass() + "[number=" + number + 
             ",owner=" + owner +
