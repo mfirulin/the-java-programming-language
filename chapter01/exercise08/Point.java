@@ -3,8 +3,7 @@ public class Point {
     public static Point origin = new Point();
     
     public void clear() {
-        x = 0;
-        y = 0;
+        x = y = 0;
     }
 
     public double distance(Point that) {
@@ -21,5 +20,8 @@ public class Point {
     public void duplicate(Point p) {
         p.x = x;
         p.y = y;
+    }
+    
+    public static void main(String[] args) {
     }
 }
