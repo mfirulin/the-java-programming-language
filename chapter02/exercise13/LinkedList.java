@@ -7,7 +7,7 @@ public class LinkedList {
     }
   
     public LinkedList getNext() {
-  		return next;
+  	    return next;
     }
     
     public void setObject(Object o) {
