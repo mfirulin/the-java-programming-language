@@ -6,7 +6,7 @@ public class LinkedList {
         return obj;
     }
   
-  	public LinkedList getNext() {
+    public LinkedList getNext() {
   		return next;
     }
     
