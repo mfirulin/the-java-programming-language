@@ -1,16 +1,16 @@
 public class Test implements Runnable {
     private int value;
     
-    private  void add(int value) {
+    private synchronized void add(int value) {
         this.value += value;
         System.out.println(this.value);
     }
     
-    public synchronized void run() {
+    public void run() {
         try {
             for(;;) {
                 add(1);
-                Thread.sleep(10);
+                Thread.sleep(1000);
             }
         }
         catch(InterruptedException e) {
