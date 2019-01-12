@@ -24,12 +24,12 @@ public class JobQueue {
         tail = job;
         num++;
         
-        notify();
+        notify(); // Wake any worker
     }
     
     private synchronized Object takeJob() throws InterruptedException {
         while (head == null)
-            wait();
+            wait(); // Can throw InterruptedException
         
         var job = head;
         head = head.next;
@@ -47,7 +47,7 @@ public class JobQueue {
                     for (;;) {
                         addJob(new Object());
                         System.out.println("Manager adds a job. Queue length " + num);
-                        Thread.sleep(500);
+                        Thread.sleep(500); // Can throw InterruptedException
                     }
                 }
                 catch (InterruptedException e) {
