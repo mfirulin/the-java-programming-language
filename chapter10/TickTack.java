@@ -9,6 +9,7 @@ public class TickTack implements Runnable {
             }
         }
         catch (InterruptedException e) {
+            System.err.println("Job interrupted");
             Thread.currentThread().interrupt();
         }
     }
