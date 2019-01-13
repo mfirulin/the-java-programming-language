@@ -14,9 +14,9 @@ public class ThreadSpecificData {
     };
     
     public ThreadSpecificData() {
-        Runnable worker = new Runnable() {
+        var worker = new Runnable() {
             public void run() {
-                try (PrintWriter out = new PrintWriter("ThreadSpecificData" + threadId.get() + ".log")) {
+                try (var out = new PrintWriter("ThreadSpecificData" + threadId.get() + ".log")) {
                         out.println("Thread started");
                 }
                 catch (FileNotFoundException e) {
