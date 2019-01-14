@@ -11,8 +11,8 @@ public class ThreadSpecificData {
             @Override
             protected Integer initialValue() {
                 return nextId.getAndIncrement();
-        }
-    };
+            }
+        };
     
     public ThreadSpecificData() {
         var worker = new Runnable() {
