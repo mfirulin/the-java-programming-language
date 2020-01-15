@@ -1,3 +1,6 @@
+// Exercise 2.9: Add a static method to Vehicle that returns the highest identification number used thus
+// far.
+
 public class Vehicle {
     private double speed;
     private short course;
