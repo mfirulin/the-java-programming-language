@@ -1,3 +1,6 @@
+// Exercise 2.13: Make the fields in your Vehicle class private, and add accessor methods for the fields.
+// Which fields should have methods to change them, and which should not?
+
 public class Vehicle {
     private double speed;
     private short course;
