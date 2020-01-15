@@ -1,3 +1,6 @@
+// Exercise 1.12: Modify ImprovedFibonacci to store the String objects it creates 
+// into an array instead of invoking println with them directly.
+
 public class ImprovedFibonacci {
     private static final int MAX = 50;
 

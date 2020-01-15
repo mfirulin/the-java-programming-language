@@ -1,3 +1,6 @@
+// Exercise 1.15: Write an interface that extends Lookup to declare 
+// add and remove methods. Implement the extended interface in a new class.
+
 interface Lookup {
     Object find(String name);
 }

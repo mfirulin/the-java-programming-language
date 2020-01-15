@@ -1,3 +1,8 @@
+// Exercise 1.10: Modify the ImprovedFibonacci application to store its sequence 
+// in an array. Do this by creating a new class to hold both the value and 
+// a boolean value that says whether the value is even, and then having an array 
+// of object references to objects of that class.
+
 public class ImprovedFibonacci {
     private static final int MAX = 50;
 

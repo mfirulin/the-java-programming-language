@@ -1,3 +1,7 @@
+// Exercise 1.16: Add fields to BadDataSetException to hold the set name and 
+// the I/O exception that signaled the problem so that whoever catches the exception 
+// will know details about the error.
+
 import java.io.IOException;
 import java.io.FileInputStream;
 

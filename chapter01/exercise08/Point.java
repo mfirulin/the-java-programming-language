@@ -1,3 +1,6 @@
+// Exercise 1.8: Add a method to the Point class that sets the current object's 
+// coordinates to those of passed in Point object.
+
 public class Point {
     private double x, y;
     public static Point origin = new Point();

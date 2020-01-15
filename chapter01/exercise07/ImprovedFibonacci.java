@@ -1,3 +1,5 @@
+// Exercise 1.7: Change the loop in ImprovedFibonacci so that i counts backward instead of forward.
+
 public class ImprovedFibonacci {
     private static final int MAX = 9;
 
