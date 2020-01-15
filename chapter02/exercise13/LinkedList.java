@@ -1,3 +1,6 @@
+// Exercise 2.14: Make the fields in your LinkedList class private, and add accessor methods for the
+// fields. Which fields should have methods to change them, and which should not?
+
 public class LinkedList {
     private Object obj;
     private LinkedList next;
