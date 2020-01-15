@@ -1,3 +1,6 @@
+// Exercise 2.7: Add two constructors to Vehicle: a no-arg constructor and one that takes an initial
+// owner's name. Modify the main program so that it generates the same output it did before.
+
 public class Vehicle {
     private double speed;
     private short course;
