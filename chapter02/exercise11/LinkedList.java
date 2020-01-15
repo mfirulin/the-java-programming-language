@@ -1,3 +1,5 @@
+// Exercise 2.11: Add a toString method to LinkedList.
+
 public class LinkedList {
     public Object obj;
     private LinkedList next;
