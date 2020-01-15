@@ -1,3 +1,6 @@
+// Exercise 2.5: Write a main method for your Vehicle class that creates a few vehicles and prints their
+// field values.
+    
 public class Vehicle {
     public double speed;
     public short course;
