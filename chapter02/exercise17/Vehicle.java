@@ -1,3 +1,6 @@
+// Exercise 2.18: Change Vehicle.main to create cars with owners whose names are specified on the
+// command line, and then print them.
+
 public class Vehicle {
     private double speed;
     private short course;
