@@ -1,5 +1,7 @@
-public class Vehicle
-{
+// Exercise 2.15: Add a changeSpeed method that changes the current speed of the vehicle to a passed-in
+// value and add a stop method that sets the speed to zero.
+
+public class Vehicle {
     private double speed;
     private short course;
     private String owner = "<ownerless>";
