@@ -1,3 +1,6 @@
+// Exercise 2.17: Add two turn methods to Vehicle: one that takes a number of degrees to turn and one
+// that takes either of the constants Vehicle.TURN_LEFT or Vehicle.TURN_RIGHT.
+
 public class Vehicle {
     private double speed;
     private short course;
