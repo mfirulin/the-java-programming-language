@@ -1,3 +1,6 @@
+// Exercise 2.6: Write a main method for your LinkedList class that creates a few objects of type Vehicle
+// and places them into successive nodes in the list.
+
 public class LinkedList {
     public Object obj;
     private LinkedList next;
