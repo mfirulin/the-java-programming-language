@@ -1,3 +1,5 @@
+// Exercise 2.10: Add a toString method to Vehicle.
+
 public class Vehicle {
     private double speed;
     private short course;
