@@ -1,3 +1,5 @@
+// Exercise 2.16: Add a method to LinkedList to return the number of elements in a list.
+
 public class LinkedList {
     private Object obj;
     private LinkedList next;
